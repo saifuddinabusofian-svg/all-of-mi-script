@@ -1,10 +1,5 @@
--- Forsaken Chase System v3.0
--- Fixes: dup-connects, camera-nil, anim-leak, keybind-gpe, sound-leak, div0
--- Adds: auto-cleanup, preload, smooth-theme, profiles, spectator-detect
--- Base: v2.5n Venice polished | Fixes: heartbeat-survive-silence, eye-singles scale/pos, EYE_FINAL download, theme-clamp, GUI leak, respawn drag
--- Features: IDLE+HEARTBEAT, WALK SPEED, CROUCH, RESPAWN SFX, VISUALIZER, EYES, BACKWARD ANIM
 
-print("[Chase] Initializing v3.0 ...")
+print("[Chase] Initializing v3.5 ...")
 -- Re-execute guard: clean previous run before starting (prevents dup Heartbeat/Died/Input)
 pcall(function()
   if _G.__ChaseCleanup and typeof(_G.__ChaseCleanup) == "function" then
